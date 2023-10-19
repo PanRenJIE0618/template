@@ -1,0 +1,22 @@
+* {
+  /* 防止选中元素 */
+  user-select: none;
+  background-size: 100% 100% !important;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  & ::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+  }
+}
+#app {
+  overflow: scroll;
+  //background-color: black;
+  height: 100%;
+}
+.el-popper{
+  z-index: 30000 !important;
+}
